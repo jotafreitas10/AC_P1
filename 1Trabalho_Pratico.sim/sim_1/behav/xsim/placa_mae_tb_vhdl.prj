@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/ALU.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/BancoRegistos.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/MUXPC.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/MUXR.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/Memoria_De_Dados.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/Memoria_De_Instrucoes.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/NOR_Operando.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/PC.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/Placa_Mae.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/Processador.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/ROM_de_Descodificação.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sources_1/new/Registo_Flags.vhd" \
+"../../../../1Trabalho_Pratico.srcs/sim_1/new/Placa_mae_tb.vhd" \
+
+# Do not sort compile order
+nosort

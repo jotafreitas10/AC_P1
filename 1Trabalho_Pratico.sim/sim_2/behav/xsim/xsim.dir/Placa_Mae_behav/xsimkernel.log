@@ -1,0 +1,7 @@
+Running: xsim.dir/Placa_Mae_behav/xsimk.exe -simmode gui -wdb Placa_Mae_behav.wdb -simrunnum 0 -socket 55366
+Design successfully loaded
+Design Loading Memory Usage: 27996 KB (Peak: 27996 KB)
+Design Loading CPU Usage: 749 ms
+Simulation completed
+Simulation Memory Usage: 28780 KB (Peak: 28780 KB)
+Simulation CPU Usage: 780 ms

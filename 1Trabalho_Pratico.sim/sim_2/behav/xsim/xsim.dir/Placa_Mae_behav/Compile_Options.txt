@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Placa_Mae_behav" "xil_defaultlib.Placa_Mae" -log "elaborate.log" 

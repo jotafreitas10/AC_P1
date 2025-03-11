@@ -1,0 +1,1231 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 11 12:02:57 2025
+# Process ID         : 20932
+# Current directory  : C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent1452 C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.xpr
+# Log file           : C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/vivado.log
+# Journal file       : C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico\vivado.jou
+# Running On         : Freitas
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 5700U with Radeon Graphics         
+# CPU Frequency      : 1797 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 6280 MB
+# Swap memory        : 12884 MB
+# Total Virtual      : 19165 MB
+# Available Virtual  : 8410 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/DMFF/Desktop/Aulas_ac/1Trabalho_Pratico' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'placa_mae_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'placa_mae_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj placa_mae_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/BancoRegistos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Banco_Registos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gestor_Perifericos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/MUXPC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_PC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/MUXR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_Registos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Memoria_De_Dados.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemoriaDados'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Memoria_De_Instrucoes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Memoria_De_Instrucoes'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/NOR_Operando.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NOR_Operando'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Placa_Mae.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Placa_Mae'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Processador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Processador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/ROM_de_Descodificação.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM_Decod'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Registo_Flags.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegistoFlags'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_1/new/Placa_mae_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'placa_mae_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot placa_mae_tb_behav xil_defaultlib.placa_mae_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot placa_mae_tb_behav xil_defaultlib.placa_mae_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_PC [mux_pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_Decod [rom_decod_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegistoFlags [registoflags_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Gestor_Perifericos [gestor_perifericos_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_Registos [mux_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.Banco_Registos [banco_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOR_Operando [nor_operando_default]
+Compiling architecture struct of entity xil_defaultlib.Processador [processador_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemoriaDados [memoriadados_default]
+Compiling architecture behavioral of entity xil_defaultlib.Memoria_De_Instrucoes [memoria_de_instrucoes_default]
+Compiling architecture struct of entity xil_defaultlib.Placa_Mae [placa_mae_default]
+Compiling architecture behavioral of entity xil_defaultlib.placa_mae_tb
+Built simulation snapshot placa_mae_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "placa_mae_tb_behav -key {Behavioral:sim_1:Functional:placa_mae_tb} -tclbatch {placa_mae_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source placa_mae_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'placa_mae_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1203.320 ; gain = 20.004
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+create_fileset -simset sim_2
+file mkdir C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new
+set_property SOURCE_SET sources_1 [get_filesets sim_2]
+close [ open C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/pc_tb.vhd w ]
+add_files -fileset sim_2 C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/pc_tb.vhd
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property SOURCE_SET sources_1 [get_filesets sim_2]
+close [ open C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/Banco_Registos_tb.vhd w ]
+add_files -fileset sim_2 C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/Banco_Registos_tb.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+set_property is_enabled false [get_files  C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Placa_Mae.vhd]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'Processador'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Processador' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj Processador_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/BancoRegistos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Banco_Registos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gestor_Perifericos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/MUXPC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_PC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/MUXR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_Registos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/NOR_Operando.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NOR_Operando'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/ROM_de_Descodificação.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM_Decod'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Registo_Flags.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegistoFlags'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Processador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Processador'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processador_behav xil_defaultlib.Processador -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processador_behav xil_defaultlib.Processador -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_PC [mux_pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_Decod [rom_decod_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegistoFlags [registoflags_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Gestor_Perifericos [gestor_perifericos_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_Registos [mux_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.Banco_Registos [banco_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOR_Operando [nor_operando_default]
+Compiling architecture struct of entity xil_defaultlib.processador
+Built simulation snapshot Processador_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Processador_behav -key {Behavioral:sim_2:Functional:Processador} -tclbatch {Processador.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Processador.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Processador_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1230.266 ; gain = 0.000
+update_compile_order -fileset sim_2
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property is_enabled true [get_files  C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Placa_Mae.vhd]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'Placa_Mae'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Placa_Mae' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj Placa_Mae_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Memoria_De_Dados.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MemoriaDados'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Memoria_De_Instrucoes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Memoria_De_Instrucoes'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Placa_Mae.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Placa_Mae'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Placa_Mae_behav xil_defaultlib.Placa_Mae -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Placa_Mae_behav xil_defaultlib.Placa_Mae -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_PC [mux_pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_Decod [rom_decod_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegistoFlags [registoflags_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Gestor_Perifericos [gestor_perifericos_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_Registos [mux_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.Banco_Registos [banco_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOR_Operando [nor_operando_default]
+Compiling architecture struct of entity xil_defaultlib.Processador [processador_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemoriaDados [memoriadados_default]
+Compiling architecture behavioral of entity xil_defaultlib.Memoria_De_Instrucoes [memoria_de_instrucoes_default]
+Compiling architecture struct of entity xil_defaultlib.placa_mae
+Built simulation snapshot Placa_Mae_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Placa_Mae_behav -key {Behavioral:sim_2:Functional:Placa_Mae} -tclbatch {Placa_Mae.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Placa_Mae.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Placa_Mae_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1230.266 ; gain = 0.000
+save_wave_config {C:/Users/joaof/Downloads/Placa_Mae_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Banco_Registos_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+set_property top pc_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+set_property top Placa_Mae [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+set_property top Banco_Registos_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+set_property top pc_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'pc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'pc_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj pc_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/pc_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pc_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pc_tb_behav xil_defaultlib.pc_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pc_tb_behav xil_defaultlib.pc_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture tb of entity xil_defaultlib.pc_tb
+Built simulation snapshot pc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pc_tb_behav -key {Behavioral:sim_2:Functional:pc_tb} -tclbatch {pc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source pc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1636.664 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Banco_Registos_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'Banco_Registos_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Banco_Registos_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj Banco_Registos_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/Banco_Registos_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Banco_Registos_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Banco_Registos_tb_behav xil_defaultlib.Banco_Registos_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Banco_Registos_tb_behav xil_defaultlib.Banco_Registos_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Banco_Registos [banco_registos_default]
+Compiling architecture tb of entity xil_defaultlib.banco_registos_tb
+Built simulation snapshot Banco_Registos_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Banco_Registos_tb_behav -key {Behavioral:sim_2:Functional:Banco_Registos_tb} -tclbatch {Banco_Registos_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Banco_Registos_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Banco_Registos_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1636.664 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property SOURCE_SET sources_1 [get_filesets sim_2]
+close [ open C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/Processador_tb.vhd w ]
+add_files -fileset sim_2 C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/Processador_tb.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+set_property top Processador_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'Processador_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Processador_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj Processador_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/Processador_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Processador_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processador_tb_behav xil_defaultlib.Processador_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processador_tb_behav xil_defaultlib.Processador_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_PC [mux_pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_Decod [rom_decod_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegistoFlags [registoflags_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Gestor_Perifericos [gestor_perifericos_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_Registos [mux_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.Banco_Registos [banco_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOR_Operando [nor_operando_default]
+Compiling architecture struct of entity xil_defaultlib.Processador [processador_default]
+Compiling architecture behavioral of entity xil_defaultlib.processador_tb
+Built simulation snapshot Processador_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Processador_tb_behav -key {Behavioral:sim_2:Functional:Processador_tb} -tclbatch {Processador_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Processador_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Processador_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2294.488 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Banco_Registos_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'Banco_Registos_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Banco_Registos_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj Banco_Registos_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Banco_Registos_tb_behav xil_defaultlib.Banco_Registos_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Banco_Registos_tb_behav xil_defaultlib.Banco_Registos_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Banco_Registos_tb_behav -key {Behavioral:sim_2:Functional:Banco_Registos_tb} -tclbatch {Banco_Registos_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Banco_Registos_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Banco_Registos_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2312.375 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top pc_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'pc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'pc_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj pc_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pc_tb_behav xil_defaultlib.pc_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pc_tb_behav xil_defaultlib.pc_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pc_tb_behav -key {Behavioral:sim_2:Functional:pc_tb} -tclbatch {pc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source pc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2312.375 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top Processador_tb [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'Processador_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Processador_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xvhdl --incr --relax -prj Processador_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sim_2/new/Processador_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Processador_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processador_tb_behav xil_defaultlib.Processador_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processador_tb_behav xil_defaultlib.Processador_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_PC [mux_pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_Decod [rom_decod_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegistoFlags [registoflags_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Gestor_Perifericos [gestor_perifericos_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_Registos [mux_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.Banco_Registos [banco_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOR_Operando [nor_operando_default]
+Compiling architecture struct of entity xil_defaultlib.Processador [processador_default]
+Compiling architecture behavioral of entity xil_defaultlib.processador_tb
+Built simulation snapshot Processador_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Processador_tb_behav -key {Behavioral:sim_2:Functional:Processador_tb} -tclbatch {Processador_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Processador_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Processador_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2312.375 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'placa_mae_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'placa_mae_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj placa_mae_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gestor_Perifericos'
+ERROR: [VRFC 10-8820] cannot read from 'out' object 'pout'; use 'buffer' or 'inout' instead [C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd:25]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd:17]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Processador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\pc_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Gestor_De_Periféricos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sim_2\new\Banco_Registos_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\joaof\Downloads\1Trabalho_Pratico\1Trabalho_Pratico\1Trabalho_Pratico.srcs\sources_1\new\Processador.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'placa_mae_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'placa_mae_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj placa_mae_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.srcs/sources_1/new/Gestor_De_Periféricos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gestor_Perifericos'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot placa_mae_tb_behav xil_defaultlib.placa_mae_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot placa_mae_tb_behav xil_defaultlib.placa_mae_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_PC [mux_pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_Decod [rom_decod_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegistoFlags [registoflags_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Gestor_Perifericos [gestor_perifericos_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_Registos [mux_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.Banco_Registos [banco_registos_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOR_Operando [nor_operando_default]
+Compiling architecture struct of entity xil_defaultlib.Processador [processador_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemoriaDados [memoriadados_default]
+Compiling architecture behavioral of entity xil_defaultlib.Memoria_De_Instrucoes [memoria_de_instrucoes_default]
+Compiling architecture struct of entity xil_defaultlib.Placa_Mae [placa_mae_default]
+Compiling architecture behavioral of entity xil_defaultlib.placa_mae_tb
+Built simulation snapshot placa_mae_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/joaof/Downloads/1Trabalho_Pratico/1Trabalho_Pratico/1Trabalho_Pratico.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "placa_mae_tb_behav -key {Behavioral:sim_1:Functional:placa_mae_tb} -tclbatch {placa_mae_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source placa_mae_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'placa_mae_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2312.375 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 11 12:59:41 2025...
